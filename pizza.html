@@ -1,0 +1,613 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090909">
+
+    <title>Punjab Pizza | Fresh, Hot & Delicious</title>
+
+    <link rel="stylesheet" href="pizza.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-pizza">🍕</div>
+            <h2>PUNJAB <span>PIZZA</span></h2>
+            <div class="loader-line"></div>
+            <p>Preparing Something Delicious...</p>
+        </div>
+    </div>
+
+    <!-- BACKGROUND ANIMATION -->
+    <div class="background-effects">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="glow glow-three"></div>
+        <div class="floating-particle particle-one"></div>
+        <div class="floating-particle particle-two"></div>
+        <div class="floating-particle particle-three"></div>
+        <div class="floating-particle particle-four"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="header" id="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">🍕</span>
+                <span>PUNJAB <b>PIZZA</b></span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#menu" class="nav-link">Our Menu</a>
+                <a href="#deals" class="nav-link">Special Deals</a>
+                <a href="#about" class="nav-link">About Us</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+                <a href="#login" class="mobile-login">
+                    <i class="fa-solid fa-user"></i> Login
+                </a>
+
+            </div>
+
+            <div class="nav-actions">
+
+                <button class="cart-button" id="cartButton">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+
+                <a href="#login" class="login-button">
+                    <i class="fa-solid fa-user"></i> Login
+                </a>
+
+                <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HOME SECTION -->
+    <main>
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                <i class="fa-solid fa-fire"></i>
+                FRESHLY BAKED EVERY DAY
+            </div>
+
+            <h1>
+                TASTE THE
+                <span>REAL</span>
+                <br>
+                PIZZA EXPERIENCE
+            </h1>
+
+            <p>
+                Experience the perfect combination of crispy crust,
+                fresh ingredients and unforgettable flavours.
+                Your favourite pizza is just one click away!
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#menu" class="primary-button">
+                    ORDER NOW
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#about" class="secondary-button">
+                    EXPLORE MORE
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div>
+                    <h3>100%</h3>
+                    <p>Fresh Quality</p>
+                </div>
+
+                <div>
+                    <h3>30 min</h3>
+                    <p>Target Delivery</p>
+                </div>
+
+                <div>
+                    <h3>5★</h3>
+                    <p>Delicious Taste</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <div class="pizza-glow"></div>
+
+            <div class="pizza-circle">
+                <img
+                src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1000&q=85"
+                alt="Delicious Punjab Pizza">
+            </div>
+
+            <div class="floating-label label-one">
+                <i class="fa-solid fa-fire"></i>
+                Hot & Fresh
+            </div>
+
+            <div class="floating-label label-two">
+                <i class="fa-solid fa-star"></i>
+                Premium Quality
+            </div>
+
+        </div>
+
+        <a href="#menu" class="scroll-down">
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <section class="features">
+
+        <div class="feature-card">
+            <i class="fa-solid fa-pizza-slice"></i>
+            <h3>Fresh Ingredients</h3>
+            <p>Quality ingredients in every bite.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Fast Delivery</h3>
+            <p>Hot food delivered to your door.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Made With Love</h3>
+            <p>Every pizza prepared with care.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fa-solid fa-award"></i>
+            <h3>Premium Taste</h3>
+            <p>A flavour worth remembering.</p>
+        </div>
+
+    </section>
+
+
+    <!-- MENU SECTION -->
+    <section class="menu-section section-padding" id="menu">
+
+        <div class="section-heading">
+
+            <span class="section-tag">OUR DELICIOUS FOOD</span>
+
+            <h2>EXPLORE OUR <span>MENU</span></h2>
+
+            <p>Discover your favourite flavours at Punjab Pizza.</p>
+
+        </div>
+
+        <div class="menu-categories">
+
+            <button class="category-btn active" data-category="all">
+                All Items
+            </button>
+
+            <button class="category-btn" data-category="pizza">
+                🍕 Pizza
+            </button>
+
+            <button class="category-btn" data-category="burger">
+                🍔 Burgers
+            </button>
+
+            <button class="category-btn" data-category="fries">
+                🍟 Fries
+            </button>
+
+            <button class="category-btn" data-category="drinks">
+                🥤 Drinks
+            </button>
+
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+
+            <!-- JavaScript will load menu items here -->
+
+        </div>
+
+        <div class="menu-bottom">
+            <p>More delicious food coming soon!</p>
+        </div>
+
+    </section>
+
+
+    <!-- SPECIAL DEALS -->
+    <section class="deals-section section-padding" id="deals">
+
+        <div class="section-heading">
+
+            <span class="section-tag">LIMITED TIME OFFERS</span>
+
+            <h2>SPECIAL <span>DEALS</span></h2>
+
+            <p>Enjoy delicious food with amazing combinations.</p>
+
+        </div>
+
+        <div class="deals-grid">
+
+            <div class="deal-card deal-one">
+
+                <div class="deal-info">
+                    <span class="deal-label">BEST SELLER</span>
+                    <h3>Family Feast</h3>
+                    <p>Large Pizza + Fries + 2 Drinks</p>
+                    <h4>PKR 2,499</h4>
+                    <button class="deal-order"
+                    data-deal="Family Feast"
+                    data-price="2499">
+                        Order Deal
+                    </button>
+                </div>
+
+                <div class="deal-emoji">🍕</div>
+
+            </div>
+
+            <div class="deal-card deal-two">
+
+                <div class="deal-info">
+                    <span class="deal-label">HOT OFFER</span>
+                    <h3>Couple Combo</h3>
+                    <p>Medium Pizza + 2 Drinks</p>
+                    <h4>PKR 1,499</h4>
+                    <button class="deal-order"
+                    data-deal="Couple Combo"
+                    data-price="1499">
+                        Order Deal
+                    </button>
+                </div>
+
+                <div class="deal-emoji">🍔</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section section-padding" id="about">
+
+        <div class="about-image">
+
+            <img
+            src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1000&q=85"
+            alt="Freshly prepared pizza">
+
+            <div class="about-experience">
+                <h3>100%</h3>
+                <p>Fresh & Delicious</p>
+            </div>
+
+        </div>
+
+        <div class="about-content">
+
+            <span class="section-tag">ABOUT PUNJAB PIZZA</span>
+
+            <h2>MORE THAN JUST <span>PIZZA</span></h2>
+
+            <p>
+                Punjab Pizza is all about great taste, fresh ingredients
+                and memorable food experiences. We believe every meal
+                deserves something special.
+            </p>
+
+            <div class="about-points">
+
+                <p>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Freshly prepared food
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Delicious flavour combinations
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-circle-check"></i>
+                    Customer-first service
+                </p>
+
+            </div>
+
+            <a href="#contact" class="primary-button">
+                CONTACT US
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- REVIEWS -->
+    <section class="reviews-section section-padding" id="reviews">
+
+        <div class="section-heading">
+
+            <span class="section-tag">CUSTOMER FEEDBACK</span>
+
+            <h2>WHAT PEOPLE <span>SAY</span></h2>
+
+            <p>Your feedback makes us better.</p>
+
+        </div>
+
+        <div class="reviews-grid">
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p>"Amazing pizza and a wonderful food experience!"</p>
+                <h3>Happy Customer</h3>
+                <span>Punjab Pizza Guest</span>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p>"Loved the taste and the delicious cheese topping."</p>
+                <h3>Happy Customer</h3>
+                <span>Punjab Pizza Guest</span>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p>"Great food and a lovely family meal."</p>
+                <h3>Happy Customer</h3>
+                <span>Punjab Pizza Guest</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact-section section-padding" id="contact">
+
+        <div class="section-heading">
+
+            <span class="section-tag">GET IN TOUCH</span>
+
+            <h2>CONTACT <span>US</span></h2>
+
+            <p>We would love to hear from you.</p>
+
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-details">
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h3>Our Location</h3>
+                        <p>Pakistan</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h3>Phone Number</h3>
+                        <p>Update your restaurant number</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h3>Opening Hours</h3>
+                        <p>Update your restaurant timings</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="contact-form" id="contactForm">
+
+                <input type="text" placeholder="Your Full Name" required>
+
+                <input type="email" placeholder="Your Email Address" required>
+
+                <textarea placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="primary-button">
+                    SEND MESSAGE
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- LOGIN SECTION -->
+    <section class="login-section section-padding" id="login">
+
+        <div class="login-card">
+
+            <div class="login-icon">
+                <i class="fa-solid fa-user-astronaut"></i>
+            </div>
+
+            <span class="section-tag">WELCOME TO PUNJAB PIZZA</span>
+
+            <h2>CREATE YOUR <span>ACCOUNT</span></h2>
+
+            <form id="loginForm">
+
+                <input type="text" id="fullName"
+                placeholder="Full Name" required>
+
+                <input type="email" id="userEmail"
+                placeholder="Email Address" required>
+
+                <input type="password" id="userPassword"
+                placeholder="Create Password" minlength="6" required>
+
+                <button type="submit" class="primary-button">
+                    SIGN IN
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+            <p class="login-message" id="loginMessage"></p>
+
+            <small>Your food journey starts here 🍕</small>
+
+        </div>
+
+    </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">
+            🍕 PUNJAB <b>PIZZA</b>
+        </a>
+
+        <p>Fresh Taste. Happy Moments. Every Single Bite.</p>
+
+        <div class="social-links">
+
+            <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="TikTok">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Punjab Pizza. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- WHATSAPP FLOATING BUTTON -->
+    <a href="https://wa.me/923001234567"
+    class="whatsapp-button"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Order on WhatsApp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span>Order on WhatsApp</span>
+
+    </a>
+
+
+    <!-- CART DRAWER -->
+    <div class="cart-overlay" id="cartOverlay">
+
+        <div class="cart-drawer">
+
+            <div class="cart-header">
+                <h2><i class="fa-solid fa-cart-shopping"></i> Your Cart</h2>
+
+                <button id="closeCart" aria-label="Close cart">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="cart-items" id="cartItems">
+                <p class="empty-cart">Your cart is empty 🍕</p>
+            </div>
+
+            <div class="cart-footer">
+
+                <div class="cart-total">
+                    <span>Total Amount</span>
+                    <strong id="cartTotal">PKR 0</strong>
+                </div>
+
+                <button class="checkout-button" id="checkoutButton">
+                    ORDER ON WHATSAPP
+                    <i class="fa-brands fa-whatsapp"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastText">Added to cart!</span>
+    </div>
+
+
+    <script src="pizza.js"></script>
+
+</body>
+</html>
